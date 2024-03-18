@@ -1,4 +1,6 @@
 import { Input } from "../ui/input";
+import PatientCard from "./patient-card";
+import PatientInfo from "./patient-info";
 import PatientItem from "./patient-item";
 
 const PatientHero = () => {
@@ -7,11 +9,11 @@ const PatientHero = () => {
             <div className="text-4xl font-semibold">
                 All Patients
                 <div className="p-10">
-                    <Input placeholder="Search Patients by Name, Phone Number, Email or Patient Id"/>
+                    <Input placeholder="Search Patients by Name, Phone Number, Email or Patient Id" />
                 </div>
             </div>
             <div>
-                <PatientItem />
+                <PatientInfo />
             </div>
         </div>
     );

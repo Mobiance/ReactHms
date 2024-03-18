@@ -15,10 +15,13 @@ const PatientItem = () => {
                 <TableCaption>Patient Information</TableCaption>
                 <TableHeader>
                     <TableRow>
+                        <TableHead>Patient Id</TableHead>
                         <TableHead>Name</TableHead>
                         <TableHead>DOB</TableHead>
                         <TableHead>Gender</TableHead>
-                        <TableHead>Phone</TableHead>
+                        <TableHead>Contact Number</TableHead>
+                        <TableHead>Weight</TableHead>
+                        <TableHead>Age</TableHead>
                         <TableHead>Actions</TableHead>
                     </TableRow>
                 </TableHeader>
