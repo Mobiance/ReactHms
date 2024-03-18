@@ -7,6 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
+import { Link } from "react-router-dom";
 
 const PatientItem = () => {
     return (
@@ -27,102 +28,74 @@ const PatientItem = () => {
                 </TableHeader>
                 <TableBody>
                     <TableRow>
+                        <TableCell>1</TableCell>
                         <TableCell>John Doe</TableCell>
                         <TableCell>12 Jan 1980</TableCell>
                         <TableCell>Male</TableCell>
                         <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
+                        <TableCell>70 KG</TableCell>
+                        <TableCell>30</TableCell>
+                        <TableCell><Link to="/patientinfo"> View </Link></TableCell>
                     </TableRow>
                     <TableRow>
+                        <TableCell>1</TableCell>
                         <TableCell>John Doe</TableCell>
                         <TableCell>12 Jan 1980</TableCell>
                         <TableCell>Male</TableCell>
                         <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
+                        <TableCell>70 KG</TableCell>
+                        <TableCell>30</TableCell>
+                        <TableCell><Link to="/patientinfo"> View </Link></TableCell>
                     </TableRow>
                     <TableRow>
+                        <TableCell>1</TableCell>
                         <TableCell>John Doe</TableCell>
                         <TableCell>12 Jan 1980</TableCell>
                         <TableCell>Male</TableCell>
                         <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
+                        <TableCell>70 KG</TableCell>
+                        <TableCell>30</TableCell>
+                        <TableCell><Link to="/patientinfo"> View </Link></TableCell>
                     </TableRow>
                     <TableRow>
+                        <TableCell>1</TableCell>
                         <TableCell>John Doe</TableCell>
                         <TableCell>12 Jan 1980</TableCell>
                         <TableCell>Male</TableCell>
                         <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
+                        <TableCell>70 KG</TableCell>
+                        <TableCell>30</TableCell>
+                        <TableCell><Link to="/patientinfo"> View </Link></TableCell>
                     </TableRow>
                     <TableRow>
+                        <TableCell>1</TableCell>
                         <TableCell>John Doe</TableCell>
                         <TableCell>12 Jan 1980</TableCell>
                         <TableCell>Male</TableCell>
                         <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
+                        <TableCell>70 KG</TableCell>
+                        <TableCell>30</TableCell>
+                        <TableCell><Link to="/patientinfo"> View </Link></TableCell>
                     </TableRow>
                     <TableRow>
+                        <TableCell>1</TableCell>
                         <TableCell>John Doe</TableCell>
                         <TableCell>12 Jan 1980</TableCell>
                         <TableCell>Male</TableCell>
                         <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
+                        <TableCell>70 KG</TableCell>
+                        <TableCell>30</TableCell>
+                        <TableCell><Link to="/patientinfo"> View </Link></TableCell>
                     </TableRow>
                     <TableRow>
+                        <TableCell>1</TableCell>
                         <TableCell>John Doe</TableCell>
                         <TableCell>12 Jan 1980</TableCell>
                         <TableCell>Male</TableCell>
                         <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableCell>John Doe</TableCell>
-                        <TableCell>12 Jan 1980</TableCell>
-                        <TableCell>Male</TableCell>
-                        <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableCell>John Doe</TableCell>
-                        <TableCell>12 Jan 1980</TableCell>
-                        <TableCell>Male</TableCell>
-                        <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableCell>John Doe</TableCell>
-                        <TableCell>12 Jan 1980</TableCell>
-                        <TableCell>Male</TableCell>
-                        <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableCell>John Doe</TableCell>
-                        <TableCell>12 Jan 1980</TableCell>
-                        <TableCell>Male</TableCell>
-                        <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableCell>John Doe</TableCell>
-                        <TableCell>12 Jan 1980</TableCell>
-                        <TableCell>Male</TableCell>
-                        <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableCell>John Doe</TableCell>
-                        <TableCell>12 Jan 1980</TableCell>
-                        <TableCell>Male</TableCell>
-                        <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableCell>John Doe</TableCell>
-                        <TableCell>12 Jan 1980</TableCell>
-                        <TableCell>Male</TableCell>
-                        <TableCell>1212121212</TableCell>
-                        <TableCell>View</TableCell>
+                        <TableCell>70 KG</TableCell>
+                        <TableCell>30</TableCell>
+                        <TableCell><Link to="/patientinfo"> View </Link></TableCell>
                     </TableRow>
                 </TableBody>
             </Table>

@@ -1,6 +1,4 @@
 import { Input } from "../ui/input";
-import PatientCard from "./patient-card";
-import PatientInfo from "./patient-info";
 import PatientItem from "./patient-item";
 
 const PatientHero = () => {
@@ -13,7 +11,7 @@ const PatientHero = () => {
                 </div>
             </div>
             <div>
-                <PatientInfo />
+                <PatientItem />
             </div>
         </div>
     );
